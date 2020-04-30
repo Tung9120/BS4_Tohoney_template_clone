@@ -1,0 +1,45 @@
+/* CSS for .header-area */
+.header-area ul > a{
+    color: #343a40 !important;
+}
+
+.header-area .right-nav .dropdown.show a{
+    color: #ef4836 !important;
+}
+
+.header-area .right-nav .show > a:hover{
+    color: #ef4836 !important;
+    transition: all .3s;
+}
+
+.header-area .right-nav li > a:hover{
+    color: #ef4836 !important;
+    transition: all .3s;    
+}
+
+.header-area .right-nav .show > a:active{
+    color: #ef4836 !important;
+    transition: all .3s;
+}
+
+.header-area .right-nav li > a:active{
+    color: #ef4836 !important;
+    transition: all .3s;    
+}
+
+.header-area .sub-menu.show{
+    box-sizing: border-box !important;
+}
+
+.header-area .right-nav .sub-menu.show > a{
+    display: block !important;
+    color: #fff !important;
+    background-color: #343a40 !important;
+    transition: 0.3s;
+}
+
+.header-area .right-nav .sub-menu.show a:hover{
+    color: #fff !important;
+    text-indent: 5% !important;
+}
+
