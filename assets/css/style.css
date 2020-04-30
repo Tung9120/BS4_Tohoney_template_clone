@@ -113,11 +113,11 @@ html{
     transition: all .3s;
 }
 
-.navigation .right-nav li.show button{
+.navigation .right-nav li.show > button{
     color: #ef4836 !important;
 }
 
-.navigation .right-nav li.show button .badge{
+.navigation .right-nav li.show > button .badge{
     background-color: #343a40 !important;
     color: #fff !important;
 }
@@ -138,11 +138,20 @@ html{
     text-indent: 0% !important;
 }
 
-.navigation .right-nav li .sub-menu.sub-menu-special button{
+.navigation .right-nav li .sub-menu.sub-menu-special button.bg-transparent{
     color: #fff !important;
     transition: .3s !important;
 }
 
-.navigation .right-nav li .sub-menu.show button:hover{
+.navigation .right-nav li .sub-menu.show button.bg-transparent:hover{
     color: red !important;
+}
+
+.navigation .right-nav li .sub-menu.sub-menu-special .checkout button{
+    transition: .3s !important;
+}
+
+.navigation .right-nav li .sub-menu.sub-menu-special .checkout button:hover{
+    background-color: #ef4836 !important;
+    color: #fff !important;
 }
