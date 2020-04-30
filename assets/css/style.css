@@ -1,3 +1,7 @@
+html{
+    font-size: 90%;
+}
+
 /* CSS for .header-area */
 .header-area ul > a{
     color: #343a40 !important;
@@ -87,5 +91,14 @@
 .navigation .right-nav .sub-menu.show a:hover{
     color: #ef4836 !important;
     text-indent: 3% !important;
+}
+
+.navigation .right-nav li > button{
+    transition: all .3s;
+    box-shadow: none !important;
+}
+
+.navigation .right-nav li > button:hover{
+    color: #ef4836 !important;
 }
 
