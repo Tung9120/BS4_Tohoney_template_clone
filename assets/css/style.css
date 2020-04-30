@@ -40,6 +40,52 @@
 
 .header-area .right-nav .sub-menu.show a:hover{
     color: #fff !important;
-    text-indent: 5% !important;
+    text-indent: 3% !important;
+}
+
+/* CSS for .navigation */
+
+.navigation ul > a{
+    color: #343a40 !important;
+}
+
+.navigation .right-nav .dropdown.show a{
+    color: #ef4836 !important;
+}
+
+.navigation .right-nav .show > a:hover{
+    color: #ef4836 !important;
+    transition: all .3s;
+}
+
+.navigation .right-nav li > a:hover{
+    color: #ef4836 !important;
+    transition: all .3s;    
+}
+
+.navigation .right-nav .show > a:active{
+    color: #ef4836 !important;
+    transition: all .3s;
+}
+
+.navigation .right-nav li > a:active{
+    color: #ef4836 !important;
+    transition: all .3s;    
+}
+
+.navigation .sub-menu.show{
+    box-sizing: border-box !important;
+}
+
+.navigation .right-nav .sub-menu.show > a{
+    display: block !important;
+    color: #fff !important;
+    background-color: #343a40 !important;
+    transition: 0.3s;
+}
+
+.navigation .right-nav .sub-menu.show a:hover{
+    color: #ef4836 !important;
+    text-indent: 3% !important;
 }
 
