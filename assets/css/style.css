@@ -102,3 +102,14 @@ html{
     color: #ef4836 !important;
 }
 
+.navigation .right-nav li > button .badge{
+    background-color: #ef4836 !important;
+    transition: all .3s;
+}
+
+.navigation .right-nav li > button:hover .badge{
+    background-color: #343a40 !important;
+    color: #fff !important;
+    transition: all .3s;
+}
+
