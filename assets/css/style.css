@@ -113,3 +113,11 @@ html{
     transition: all .3s;
 }
 
+.navigation .right-nav li.show button{
+    color: #ef4836 !important;
+}
+
+.navigation .right-nav li.show button .badge{
+    background-color: #343a40 !important;
+    color: #fff !important;
+}
