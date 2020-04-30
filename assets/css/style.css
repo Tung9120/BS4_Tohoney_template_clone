@@ -121,3 +121,28 @@ html{
     background-color: #343a40 !important;
     color: #fff !important;
 }
+
+.navigation .right-nav li .sub-menu-special .card img {
+    min-width: 70px !important;
+    min-height: 88px !important;
+}
+
+.navigation .right-nav li .sub-menu.sub-menu-special a{
+    white-space: normal !important;
+    color: #fff !important;
+    transition: .3s !important;
+}
+
+.navigation .right-nav li .sub-menu.sub-menu-special a:hover{
+    background-color: #343a40 !important;
+    text-indent: 0% !important;
+}
+
+.navigation .right-nav li .sub-menu.sub-menu-special button{
+    color: #fff !important;
+    transition: .3s !important;
+}
+
+.navigation .right-nav li .sub-menu.show button:hover{
+    color: red !important;
+}
