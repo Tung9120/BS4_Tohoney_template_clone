@@ -155,3 +155,30 @@ html{
     background-color: #ef4836 !important;
     color: #fff !important;
 }
+
+.navigation .right-nav .bd-example-modal-lg{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navigation .right-nav .modal-content{
+    margin-top: 50%;
+}
+
+.navigation .right-nav .modal-content .close{
+    opacity: 1 !important;
+    transition: .3s !important;
+}
+
+.navigation .right-nav .modal-content .close:hover{
+    color: red !important;
+}
+
+.navigation .right-nav .modal-content form button{
+    background-color: #ef4836 !important;
+    transition: .3s !important;
+}
+
+.navigation .right-nav .modal-content form button:hover{
+    background-color: #343a40 !important;
+    color: #ffffff !important;
+}

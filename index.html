@@ -212,17 +212,58 @@
                 <ul class="nav py-2 justify-content-lg-end right-nav">
                   <li class="nav-item">
                     <button
-                      class="nav-link text-dark btn bg-white ml-2"
-                      href="#"
+                      class="nav-link text-dark btn bg-white ml-lg-2"
+                      data-toggle="modal"
+                      data-target=".bd-example-modal-lg"
                     >
                       <i class="fas fa-search"></i>
                     </button>
+                    <div
+                      class="modal fade bd-example-modal-lg"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="myLargeModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content d-block p-3">
+                          <button
+                            type="button"
+                            class="btn close text-right"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            <span
+                              class="justify-content-end text-right"
+                              aria-hidden="true"
+                              >&times;</span
+                            >
+                          </button>
+                          <form
+                            action=""
+                            class="form-inline justify-content-center"
+                          >
+                            <input
+                              type="text"
+                              class="form-control form-control-lg w-75"
+                              id="inlineFormInputName2"
+                              placeholder="Search here..."
+                            />
+                            <button
+                              type="submit"
+                              class="btn btn-lg bg-white text-white border-0"
+                            >
+                              <i class="fas fa-search"></i>
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
                   </li>
                   <li class="nav-item dropdown">
                     <button
-                      class="nav-link text-dark btn bg-white ml-2"
+                      class="nav-link text-dark btn bg-white ml-lg-2"
                       data-toggle="dropdown"
-                      href="#"
                       role="button"
                       aria-haspopup="true"
                       aria-expanded="false"
@@ -273,25 +314,29 @@
                       </div>
                       <div>
                         <div class="bg-dark m-lg-3 pb-lg-0 px-lg-2 checkout">
-                          <div class="d-flex justify-content-lg-between my-lg-2">
+                          <div
+                            class="d-flex justify-content-lg-between my-lg-2"
+                          >
                             <p class="text-white">Subtotol:</p>
                             <p class="text-white">$70.00</p>
                           </div>
-                          <button class="btn btn-block text-dark">Checkout</button>
+                          <button class="btn btn-block text-dark">
+                            Checkout
+                          </button>
                         </div>
                       </div>
                     </div>
                   </li>
                   <li class="nav-item dropdown">
                     <button
-                      class="nav-link text-dark btn bg-white ml-2"
+                      class="nav-link text-dark btn bg-white ml-lg-2"
                       data-toggle="dropdown"
                       href="#"
                       role="button"
                       aria-haspopup="true"
                       aria-expanded="false"
                     >
-                    <i class="fas fa-shopping-bag"></i>
+                      <i class="fas fa-shopping-bag"></i>
                       <span class="badge badge-warning text-white">3</span>
                     </button>
                     <div
@@ -336,31 +381,35 @@
                         </button>
                       </div>
                       <div
-                      class="d-flex bg-dark border-bottom m-lg-3 pb-lg-2 px-lg-2 align-items-start"
-                    >
-                      <img src="./assets/images/2.jpg" alt="" class="mr-2" />
-                      <div class="px-lg-2">
-                        <a
-                          href="#"
-                          class="dropdown-item text-white px-2 py-0"
-                        >
-                          Pure Nature Product
-                        </a>
-                        <span class="px-2 text-white py-0">QTY: 1</span>
-                        <br />
-                        <span class="px-2 text-light py-0">$35</span>
+                        class="d-flex bg-dark border-bottom m-lg-3 pb-lg-2 px-lg-2 align-items-start"
+                      >
+                        <img src="./assets/images/2.jpg" alt="" class="mr-2" />
+                        <div class="px-lg-2">
+                          <a
+                            href="#"
+                            class="dropdown-item text-white px-2 py-0"
+                          >
+                            Pure Nature Product
+                          </a>
+                          <span class="px-2 text-white py-0">QTY: 1</span>
+                          <br />
+                          <span class="px-2 text-light py-0">$35</span>
+                        </div>
+                        <button class="btn bg-transparent p-lg-0">
+                          <i class="fas fa-times"></i>
+                        </button>
                       </div>
-                      <button class="btn bg-transparent p-lg-0">
-                        <i class="fas fa-times"></i>
-                      </button>
-                    </div>
                       <div>
                         <div class="bg-dark m-lg-3 pb-lg-0 px-lg-2 checkout">
-                          <div class="d-flex justify-content-lg-between my-lg-2">
+                          <div
+                            class="d-flex justify-content-lg-between my-lg-2"
+                          >
                             <p class="text-white">Subtotol:</p>
                             <p class="text-white">$105.00</p>
                           </div>
-                          <button class="btn btn-block text-dark">Checkout</button>
+                          <button class="btn btn-block text-dark">
+                            Checkout
+                          </button>
                         </div>
                       </div>
                     </div>
