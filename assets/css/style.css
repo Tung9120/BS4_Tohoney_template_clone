@@ -1,5 +1,5 @@
 html{
-    font-size: 80%;
+    font-size: 85%;
 }
 
 /* CSS for .header-area */
@@ -185,7 +185,25 @@ html{
 
 /* CSS for slidebar */
 
-.slidebar img{
-    /* height: 100vh;
-    width: 100vh; */
+.slidebar .carousel-caption{
+    bottom: 30% !important;
+}
+
+.slidebar .card{
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.slidebar .card .card-body{
+    color: #222 !important;
+}
+
+.slidebar .card .card-body a{
+    background-color: #ef4836 !important;
+    transition: all .3s !important;
+}
+
+.slidebar .card .card-body a:hover{
+    background-color: #fff !important;
+    color: #222 !important;
+    border: 1px solid #ef4836 !important;
 }

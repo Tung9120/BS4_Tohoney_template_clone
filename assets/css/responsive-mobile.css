@@ -1,0 +1,17 @@
+@media (max-width: 375px){
+    .slidebar img{
+        height: 50vh !important;
+    }
+
+    .slidebar .carousel-caption{
+        bottom: 20px !important;
+    }
+
+    .slidebar .card{
+        background-color: transparent !important;
+    }
+
+    .slidebar .card p{
+        font-weight: normal !important;
+    }
+}
