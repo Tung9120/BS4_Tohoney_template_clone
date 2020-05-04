@@ -214,13 +214,18 @@ html{
 }
 
 .slidebar .carousel-control-prev:hover, .carousel-control-next:hover{
-    color: #ef4836 !important;
+    color: #fff !important;
     opacity: 1 !important;
+}
+
+.slidebar .carousel-control-prev:hover .change-img, .slidebar .carousel-control-next:hover .change-img{
+    background-color: #ef4836 !important;
 }
 
 .slidebar .change-img{
     border-radius: 0.25rem !important;
     background-color: #343a40 !important;
+    transition: all .3s ease;
 }
 
 .slidebar .squares li{
