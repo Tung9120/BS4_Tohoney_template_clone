@@ -1,3 +1,3 @@
-# This project is copied from Tohoney template
+## This project is copied from Tohoney template
 ## Link: 
-![Link](http://themepresss.com/tf/html/tohoney/)
+http://themepresss.com/tf/html/tohoney

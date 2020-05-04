@@ -207,3 +207,13 @@ html{
     color: #222 !important;
     border: 1px solid #ef4836 !important;
 }
+
+.slidebar .carousel-control-prev, .carousel-control-next{
+    opacity: .5 !important;
+    transition: all .3s;
+}
+
+.slidebar .carousel-control-prev:hover, .carousel-control-next:hover{
+    color: #ef4836 !important;
+    opacity: 1 !important;
+}
