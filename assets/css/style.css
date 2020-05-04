@@ -217,3 +217,20 @@ html{
     color: #ef4836 !important;
     opacity: 1 !important;
 }
+
+.slidebar .change-img{
+    border-radius: 0.25rem !important;
+    background-color: #343a40 !important;
+}
+
+.slidebar .squares li{
+    width: 1rem !important;
+    height: 1rem !important;
+    background-color: #fff;
+    opacity: 1 !important;
+}
+
+.slidebar .squares li.active{
+    background-color: #ef4836 !important;
+    outline: 1px solid #ef4836 !important;
+}
