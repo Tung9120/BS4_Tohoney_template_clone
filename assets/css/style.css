@@ -271,7 +271,7 @@ html {
 }
 
 .hot-products .card:hover .overlay {
-  transform: scaleY(500) !important;
+  transform: scaleY(700) !important;
   opacity: 1 !important;
 }
 
@@ -284,3 +284,5 @@ html {
 .hot-products .card a:hover {
   background: #ef4836 !important;
 }
+
+/* CSS for .deal-of-the-day */
