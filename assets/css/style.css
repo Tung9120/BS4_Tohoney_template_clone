@@ -1,299 +1,300 @@
 html {
-  font-size: 85%;
+    font-size: 85%;
 }
 
 /* CSS for .header-area */
-.header-area ul > a {
-  color: #343a40 !important;
+.header-area ul>a {
+    color: #343a40 !important;
 }
 
 .header-area .right-nav .dropdown.show a {
-  color: #ef4836 !important;
+    color: #ef4836 !important;
 }
 
-.header-area .right-nav .show > a:hover {
-  color: #ef4836 !important;
-  transition: all 0.3s;
+.header-area .right-nav .show>a:hover {
+    color: #ef4836 !important;
+    transition: all 0.3s;
 }
 
-.header-area .right-nav li > a:hover {
-  color: #ef4836 !important;
-  transition: all 0.3s;
+.header-area .right-nav li>a:hover {
+    color: #ef4836 !important;
+    transition: all 0.3s;
 }
 
-.header-area .right-nav .show > a:active {
-  color: #ef4836 !important;
-  transition: all 0.3s;
+.header-area .right-nav .show>a:active {
+    color: #ef4836 !important;
+    transition: all 0.3s;
 }
 
-.header-area .right-nav li > a:active {
-  color: #ef4836 !important;
-  transition: all 0.3s;
+.header-area .right-nav li>a:active {
+    color: #ef4836 !important;
+    transition: all 0.3s;
 }
 
 .header-area .sub-menu.show {
-  box-sizing: border-box !important;
+    box-sizing: border-box !important;
 }
 
-.header-area .right-nav .sub-menu.show > a {
-  display: block !important;
-  color: #fff !important;
-  background-color: #343a40 !important;
-  transition: 0.3s;
+.header-area .right-nav .sub-menu.show>a {
+    display: block !important;
+    color: #fff !important;
+    background-color: #343a40 !important;
+    transition: 0.3s;
 }
 
 .header-area .right-nav .sub-menu.show a:hover {
-  color: #fff !important;
-  text-indent: 3% !important;
+    color: #fff !important;
+    text-indent: 3% !important;
 }
 
 /* CSS for .navigation */
 
-.navigation ul > a {
-  color: #343a40 !important;
+.navigation ul>a {
+    color: #343a40 !important;
 }
 
 .navigation .right-nav .dropdown.show a {
-  color: #ef4836 !important;
+    color: #ef4836 !important;
 }
 
-.navigation .right-nav .show > a:hover {
-  color: #ef4836 !important;
-  transition: all 0.3s;
+.navigation .right-nav .show>a:hover {
+    color: #ef4836 !important;
+    transition: all 0.3s;
 }
 
-.navigation .right-nav li > a:hover {
-  color: #ef4836 !important;
-  transition: all 0.3s;
+.navigation .right-nav li>a:hover {
+    color: #ef4836 !important;
+    transition: all 0.3s;
 }
 
-.navigation .right-nav .show > a:active {
-  color: #ef4836 !important;
-  transition: all 0.3s;
+.navigation .right-nav .show>a:active {
+    color: #ef4836 !important;
+    transition: all 0.3s;
 }
 
-.navigation .right-nav li > a:active {
-  color: #ef4836 !important;
-  transition: all 0.3s;
+.navigation .right-nav li>a:active {
+    color: #ef4836 !important;
+    transition: all 0.3s;
 }
 
 .navigation .sub-menu.show {
-  box-sizing: border-box !important;
+    box-sizing: border-box !important;
 }
 
-.navigation .right-nav .sub-menu.show > a {
-  display: block !important;
-  color: #fff !important;
-  background-color: #343a40 !important;
-  transition: 0.3s;
+.navigation .right-nav .sub-menu.show>a {
+    display: block !important;
+    color: #fff !important;
+    background-color: #343a40 !important;
+    transition: 0.3s;
 }
 
 .navigation .right-nav .sub-menu.show a:hover {
-  color: #ef4836 !important;
-  text-indent: 3% !important;
+    color: #ef4836 !important;
+    text-indent: 3% !important;
 }
 
-.navigation .right-nav li > button {
-  transition: all 0.3s;
-  box-shadow: none !important;
+.navigation .right-nav li>button {
+    transition: all 0.3s;
+    box-shadow: none !important;
 }
 
-.navigation .right-nav li > button:hover {
-  color: #ef4836 !important;
+.navigation .right-nav li>button:hover {
+    color: #ef4836 !important;
 }
 
-.navigation .right-nav li > button .badge {
-  background-color: #ef4836 !important;
-  transition: all 0.3s;
+.navigation .right-nav li>button .badge {
+    background-color: #ef4836 !important;
+    transition: all 0.3s;
 }
 
-.navigation .right-nav li > button:hover .badge {
-  background-color: #343a40 !important;
-  color: #fff !important;
-  transition: all 0.3s;
+.navigation .right-nav li>button:hover .badge {
+    background-color: #343a40 !important;
+    color: #fff !important;
+    transition: all 0.3s;
 }
 
-.navigation .right-nav li.show > button {
-  color: #ef4836 !important;
+.navigation .right-nav li.show>button {
+    color: #ef4836 !important;
 }
 
-.navigation .right-nav li.show > button .badge {
-  background-color: #343a40 !important;
-  color: #fff !important;
+.navigation .right-nav li.show>button .badge {
+    background-color: #343a40 !important;
+    color: #fff !important;
 }
 
 .navigation .right-nav li .sub-menu-special .card img {
-  min-width: 70px !important;
-  min-height: 88px !important;
+    min-width: 70px !important;
+    min-height: 88px !important;
 }
 
 .navigation .right-nav li .sub-menu.sub-menu-special a {
-  white-space: normal !important;
-  color: #fff !important;
-  transition: 0.3s !important;
+    white-space: normal !important;
+    color: #fff !important;
+    transition: 0.3s !important;
 }
 
 .navigation .right-nav li .sub-menu.sub-menu-special a:hover {
-  background-color: #343a40 !important;
-  text-indent: 0% !important;
+    background-color: #343a40 !important;
+    text-indent: 0% !important;
 }
 
 .navigation .right-nav li .sub-menu.sub-menu-special button.bg-transparent {
-  color: #fff !important;
-  transition: 0.3s !important;
+    color: #fff !important;
+    transition: 0.3s !important;
 }
 
 .navigation .right-nav li .sub-menu.show button.bg-transparent:hover {
-  color: red !important;
+    color: red !important;
 }
 
 .navigation .right-nav li .sub-menu.sub-menu-special .checkout button {
-  transition: 0.3s !important;
+    transition: 0.3s !important;
 }
 
 .navigation .right-nav li .sub-menu.sub-menu-special .checkout button:hover {
-  background-color: #ef4836 !important;
-  color: #fff !important;
+    background-color: #ef4836 !important;
+    color: #fff !important;
 }
 
 .navigation .right-nav .bd-example-modal-lg {
-  background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .navigation .right-nav .modal-content {
-  margin-top: 25vh;
+    margin-top: 25vh;
 }
 
 .navigation .right-nav .modal-content .close {
-  opacity: 1 !important;
-  transition: 0.3s !important;
+    opacity: 1 !important;
+    transition: 0.3s !important;
 }
 
 .navigation .right-nav .modal-content .close:hover {
-  color: red !important;
+    color: red !important;
 }
 
 .navigation .right-nav .modal-content form button {
-  background-color: #ef4836 !important;
-  transition: 0.3s !important;
+    background-color: #ef4836 !important;
+    transition: 0.3s !important;
 }
 
 .navigation .right-nav .modal-content form button:hover {
-  background-color: #343a40 !important;
-  color: #ffffff !important;
+    background-color: #343a40 !important;
+    color: #ffffff !important;
 }
 
 /* CSS for slidebar */
 
 .slidebar .carousel-caption {
-  bottom: 30% !important;
+    bottom: 30% !important;
 }
 
 .slidebar .card {
-  background-color: rgba(255, 255, 255, 0.8) !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .slidebar .card .card-body {
-  color: #222 !important;
+    color: #222 !important;
 }
 
 .slidebar .card .card-body a {
-  background-color: #ef4836 !important;
-  transition: all 0.3s !important;
+    background-color: #ef4836 !important;
+    transition: all 0.3s !important;
 }
 
 .slidebar .card .card-body a:hover {
-  background-color: #fff !important;
-  color: #222 !important;
-  border: 1px solid #ef4836 !important;
+    background-color: #fff !important;
+    color: #222 !important;
+    border: 1px solid #ef4836 !important;
 }
 
 .slidebar .carousel-control-prev,
 .carousel-control-next {
-  opacity: 0.5 !important;
-  transition: all 0.3s;
+    opacity: 0.5 !important;
+    transition: all 0.3s;
 }
 
 .slidebar .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  color: #fff !important;
-  opacity: 1 !important;
+    color: #fff !important;
+    opacity: 1 !important;
 }
 
 .slidebar .carousel-control-prev:hover .change-img,
 .slidebar .carousel-control-next:hover .change-img {
-  background-color: #ef4836 !important;
+    background-color: #ef4836 !important;
 }
 
 .slidebar .change-img {
-  border-radius: 0.25rem !important;
-  background-color: #343a40 !important;
-  transition: all 0.3s ease;
+    border-radius: 0.25rem !important;
+    background-color: #343a40 !important;
+    transition: all 0.3s ease;
 }
 
 .slidebar .squares li {
-  width: 1rem !important;
-  height: 1rem !important;
-  background-color: #fff;
-  opacity: 1 !important;
-  cursor: pointer;
+    width: 1rem !important;
+    height: 1rem !important;
+    background-color: #fff;
+    opacity: 1 !important;
+    cursor: pointer;
 }
 
 .slidebar .squares li.active {
-  background-color: #ef4836 !important;
-  outline: 1px solid #ef4836 !important;
-  outline-offset: 2px !important;
+    background-color: #ef4836 !important;
+    outline: 1px solid #ef4836 !important;
+    outline-offset: 2px !important;
 }
 
 /* CSS for hot products */
 
 .hot-products .card {
-  overflow: hidden !important;
-  position: relative !important;
+    overflow: hidden !important;
+    position: relative !important;
 }
 
 .hot-products .card img {
-  transition: all 0.8s !important;
+    transition: all 0.8s !important;
 }
 
 .hot-products .card:hover img {
-  transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
 }
 
 .hot-products .card .overlay {
-  opacity: 0 !important;
-  top: 58%;
-  height: 1px !important;
-  width: 100%;
-  position: absolute !important;
-  background-color: rgba(255, 255, 255, 0.5) !important;
-  transition: 1s !important;
+    opacity: 0 !important;
+    top: 58%;
+    height: 1px !important;
+    width: 100%;
+    position: absolute !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    transition: 1s !important;
 }
 
 .hot-products .card:hover .overlay {
-  transform: scaleY(800) !important;
-  opacity: 1 !important;
+    transform: scaleY(800) !important;
+    opacity: 1 !important;
 }
 
 .hot-products .card a {
-  border: 1px solid #ef4836 !important;
-  background: rgba(239, 72, 54, 0.7) !important;
-  transition: 0.5s !important;
+    border: 1px solid #ef4836 !important;
+    background: rgba(239, 72, 54, 0.7) !important;
+    transition: 0.5s !important;
 }
 
 .hot-products .card a:hover {
-  background: #ef4836 !important;
+    background: #ef4836 !important;
 }
 
 /* CSS for .deal-of-the-day */
 
-.deal-of-the-day .container-fluid{
-  background-image: url('../images/coundown/1.jpg');
-  background-size: cover;
-  background-position: center;
+.deal-of-the-day .container-fluid {
+    background-image: url('../images/coundown/1.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.deal-of-the-day .container-fluid > .row{
-  background: rgba(0, 0, 0, 0.7);
+.deal-of-the-day .container-fluid>.row {
+    background: rgba(0, 0, 0, 0.7);
 }
 
+/* CSS for .best-seller */
