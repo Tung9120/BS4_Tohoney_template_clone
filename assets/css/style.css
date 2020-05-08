@@ -286,3 +286,14 @@ html {
 }
 
 /* CSS for .deal-of-the-day */
+
+.deal-of-the-day .container-fluid{
+  background-image: url('../images/coundown/1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.deal-of-the-day .container-fluid > .row{
+  background: rgba(0, 0, 0, 0.7);
+}
+
