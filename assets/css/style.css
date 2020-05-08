@@ -299,5 +299,36 @@ html {
 
 /* CSS for .best-seller */
 
+/* CSS for .product-list */
 
+.product-list .col-12 .card .card-img-overlay > div{
+  width: 50%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  display: none;
+  transition: all 0.5s;
+}
+
+.product-list .col-12 .card .card-img-overlay{
+  transition: all 0.5s;
+}
+
+.product-list .col-12 .card .card-img-overlay:hover > div{
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  display: block;
+}
+
+
+.product-list .col-12 .card .card-img-overlay > div a{
+  transition: all 0.5s;
+}
+
+.product-list .col-12 .card .card-img-overlay > div a:hover{
+  color: #343a40;
+  background: #ef4836;
+    border-color: #ef4836 !important;
+}
 
