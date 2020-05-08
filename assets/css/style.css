@@ -345,3 +345,15 @@ html {
     border-color: #ef4836 !important;
 }
 
+.product-list .rate{
+  color: #ef4836;
+}
+
+.product-list .card h5 a{
+  transition: all 0.3s !important;
+}
+
+.product-list .card h5 a:hover{
+  text-decoration: none !important;
+  color: #ef4836 !important;
+}
